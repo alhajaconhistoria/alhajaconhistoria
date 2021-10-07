@@ -18,5 +18,5 @@ if(isset($_POST['submit'])) {
     }
      
     //redirect 
-    header("Location:thankyou.html");
+    header("Location:thankyou.php");
 }
