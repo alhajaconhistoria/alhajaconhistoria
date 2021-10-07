@@ -52,7 +52,7 @@
        <h1>¿Por qué Alhaja con Historia?</h1>
        <p>Alhaja es una palabra que me transporta a mi niñez. Siempre, al visitar a mi abuela, ella nos extendía sus brazos y decía: "Ya llegaron mis alhajas". Esa corta frase me hacía sentir especial, valiosa, única, me encantaba sentirme así. Ya con el tiempo descubrí su verdadero significado, y me ha acompañado en todas las etapas de mi vida, ahora aún más con la asesoría de imagen. Decidí incorporar aquí 'Alhaja' porque tiene una conexión directa con la exterioridad e interioridad de las mujeres que busco ayudar, por un lado a repotenciar su imagen, sacarse partido de todas las ventajas que ya tienen, ayudarlas a brillar reflejando su identidad.</p>
       </section>
-       <img src="public/img/instagram12.png" alt="png" style="position: relative;">
+       <img src="instagram12.png" alt="png" style="position: relative;">
     </section>
     <br><br><br>
     <hr class="h">
