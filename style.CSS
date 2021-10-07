@@ -90,7 +90,7 @@ header{
     .menu{
         position: absolute;
         height: 500px;
-        width: 50%;
+        width: 60%;
         top: 100px;
         background-color: rgb(231, 214, 170);
         transform: translateX(100%);
@@ -276,6 +276,12 @@ header{
     display: inline-block;
   }
 
+@media (max-width: 480px) {
+    .Banner img{
+      visibility:none; 
+    }
+  }
+
   .hy{
     border-top: 2px solid rgb(22, 22, 22);
     width: 86%;
@@ -426,6 +432,12 @@ footer .Contacto{
     color: rgb(44, 44, 44);
     text-decoration: none;
 }
+
+@media (max-width: 480px) {
+    .footer-widget{
+      visibility:none; 
+    }
+  }
 
 .footer1{
     color: rgb(44, 44, 44);
