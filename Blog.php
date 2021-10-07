@@ -29,8 +29,8 @@
   </header>
 
   <section class="header">
-    <img class="hoja" src="JPG/Hojaalhaja5.jpg" alt="jpg" style="float:left; position: relative;">
-    <img class="persona" src="JPG/Wendy2Alhaja.jpg" alt="jpg" style="float:left; position: relative;">
+    <img class="hoja" src="hojaalhaja5.png" alt="jpg" style="float:left; position: relative;">
+    <img class="persona" src="wendy2alhaja.png" alt="jpg" style="float:left; position: relative;">
   </section><br>
   <br>
   <br><section class ="Título">
@@ -41,7 +41,7 @@
   </section>
 
   <div class="card mb-3">
-    <img src="JPG/blogbannercoaching.jpg" class="card-img-top" alt="jpg">
+    <img src="blogbannercoaching.png" class="card-img-top" alt="jpg">
     <div class="card-body">
       <h5 class="card-title">Coaching de Imagen: Viaje al Autodescubrimiento</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -50,7 +50,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="JPG/blogbannersostenibilidad.jpg" class="card-img-bottom" alt="jpg">
+    <img src="blogbannersostenibilidad.png" class="card-img-bottom" alt="jpg">
     <div class="card-body">
       <h5 class="card-title">La Ropa Pre-Amada: Valorando su Historia</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
