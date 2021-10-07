@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 
   <header>
-    <nav><li><a src="PNG/logo.png" href="index.html"></a></li></nav>
+    <nav><li><a src="image/public/logo.png" href="index.html"></a></li></nav>
     <ul class="menu">
       <li><a href="index.php">Inicio</a></li>
       <li><a href="Servicios.php">Servicios</a></li>
@@ -31,7 +31,7 @@
 
     <section class="header">
       <p>Alhaja con Historia</p>
-      <img src="PNG/wendyalhaja.png" alt="png" style="float:left; position: relative;">
+      <img src="image/public/wendyalhaja.png" alt="png" style="float:left; position: relative;">
     </section><br>
     <br>
     <br>
