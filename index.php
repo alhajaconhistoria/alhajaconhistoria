@@ -31,7 +31,7 @@
 
     <section class="header">
       <p>Alhaja con Historia</p>
-      <img src="image/public/wendyalhaja.png" alt="png" style="float:left; position: relative;">
+      <img src="wendyalhaja.png" alt="png" style="float:left; position: relative;">
     </section><br>
     <br>
     <br>
