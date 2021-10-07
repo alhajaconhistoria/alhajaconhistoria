@@ -30,8 +30,8 @@
   </header>
 
   <section class="header">
-    <img class="hoja" src="JPG/Hojaalhaja.jpg" alt="jpg" style="float:left; position: relative;">
-    <img class="persona" src="JPG/AlhajaBanner.jpg" alt="jpg" style="float:left; position: relative;">
+    <img class="hoja" src="hojaalhaja.png" alt="jpg" style="float:left; position: relative;">
+    <img class="persona" src="alhajabanner.jpg" alt="jpg" style="float:left; position: relative;">
   </section><br>
   <br>
   <br>
@@ -45,7 +45,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-6">
     <div class="col">
       <div class="card" width="300px" height="400px">
-        <img src="JPG/servicioimagen.jpg" class="card-img-top" alt="jpg" max-width="260px" max-height="150px">
+        <img src="servicioimagen.png" class="card-img-top" alt="png" max-width="260px" max-height="150px">
         <div class="card-body">
           <h5 class="card-title">Asesoría de Imagen</h5>
           <p class="card-text">Busca un mayor conocimiento de tí misma y cómo sacarle provecho a todo ese potencial que llevas dentro de tí. Identificamos juntas tu estilo personal, tu morfología y visagismo, además de usar el color a tu favor en todas tus combinaciones.</p><br>
@@ -54,7 +54,7 @@
     </div>
     <div class="col">
       <div class="card" width="300px" height="400px">
-        <img src="JPG/Serviciocoaching.jpeg" class="card-img-top" alt="jpg">
+        <img src="serviciocoaching.png" class="card-img-top" alt="png">
         <div class="card-body">
           <h5 class="card-title">Coaching de Imagen</h5>
           <p class="card-text">Acompañamiento en la búsqueda de tu identidad: lo estético dentro de tu esencia individual, impregnándola en tu día a día, para a partir de allí expandirte y brillar.</p>
@@ -63,7 +63,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="JPG/servicioshopper.jpg" class="card-img-top" alt="jpg">
+        <img src="servicioshopper.png" class="card-img-top" alt="jpg">
         <div class="card-body">
           <h5 class="card-title">Personal Shopper</h5>
           <p class="card-text">Este servicio se basa en el acompañamiento de compras, en la búsqueda personalizada de prendas que te hagan sentir especial. adaptándonos a tu estilo, ocupación y presupuesto. Podemos ir de compras juntas o también lo puedo hacer por tí.</p>
@@ -72,7 +72,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="JPG/servicioexpress.jpg" class="card-img-top" alt="jpg">
+        <img src="servicioexpress.png" class="card-img-top" alt="jpg">
         <div class="card-body">
           <h5 class="card-title">Asesoría Express</h5>
           <p class="card-text">Servicio para desarrollar cualquier tema de tu interés con respecto a la asesoría de imagen. Es ideal para resolver dudas sobre aquella prenda que no sabes cómo combinar, o sobre aquel corte que no estás segura si es para tí. Servicio online.</p>
@@ -82,7 +82,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="JPG/Serviciostyling.jpg" class="card-img-top" alt="jpg">
+        <img src="serviciostyling.png" class="card-img-top" alt="jpg">
         <div class="card-body">
           <h5 class="card-title">Styling para Eventos</h5>
           <p class="card-text">Servicio que te facilita la búsqueda de un outfit preciso y adecuado para ese evento tan especial. Siempre nos centraremos en tus prioridades y presupuesto.</p>
@@ -91,7 +91,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="JPG/Servicioarmario.jpeg" class="card-img-top" alt="jpg">
+        <img src="JPG/servicioarmario.png" class="card-img-top" alt="jpg">
         <div class="card-body">
           <h5 class="card-title">Combinaciones Exitosas</h5>
           <p class="card-text">Servicio presencial en el que revisamos tu clóset. Juntas descartamos las prendas que no son óptimas para tí y armaremos combinaciones sacándole el máximo provecho a las que ya tienes. El objetivo es que se te sea más fácil vestirte diariamente de acuerdo a tu estilo.</p>
