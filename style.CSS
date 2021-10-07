@@ -1,0 +1,453 @@
+body{
+    margin: 0%;
+    background-color: white;
+    font-family: Georgia;
+    padding: 0%;
+}
+
+header{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(231, 214, 170);
+    padding: 27px;
+    height: 100px;
+}
+
+.Logo{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.menu{
+    text-decoration: none;
+
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-family: 'Tajawal', sans-serif;
+    width: 55%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.burger{
+    display: none;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 27px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width:2000px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu{
+        position:absolute;
+        right: 0px;
+        height: 500px;
+        top: 100px;
+        background-color: rgb(231, 214, 170);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 22%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .menu a{
+        opacity: 1;
+    }
+    .burger{
+        display: block;
+    } 
+}
+
+@media screen and (max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .menu{
+        position: absolute;
+        height: 500px;
+        width: 50%;
+        top: 100px;
+        background-color: rgb(231, 214, 170);
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }   
+}
+
+.nav-active{
+    transform: translate(0%);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.header{
+    height: 650px;
+    width: 100%;
+    padding: none;
+    text-align: center;
+    background-color: rgb(55, 116, 97);
+    background-size: 100%;
+    background-blend-mode: soft-light;
+    color: rgb(250, 231, 183);
+    font-size: 94px;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Petit Formal Script', cursive;
+    display: inline-block;
+}
+
+@media (max-width: 800px) {
+    .header {
+      width: 100%; 
+      height: 740px;
+    }
+  }
+
+.header p{
+    margin-left: 470px;
+    margin-top: 160px;
+}
+
+@media (max-width: 800px) {
+    .header p{
+        font-size: 62px;
+        position: relative;
+        top: 256px;
+        text-align: center;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+}
+
+.header img {
+    position: relative;
+    object-fit: cover;
+    bottom: none;
+    top: -458px;
+    max-width: 490px;
+    max-height:650px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (max-width:800px) {
+    .header img {
+      margin-left: 100px;
+      width: 55%; 
+      height: 45%;
+      top: -405px;
+    }
+  }
+
+.Título{
+    display: inline-block;
+}
+
+.Título h1{
+    font-size: 50px;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+  }
+
+  @media (max-width: 800px) {
+    .Título h1{
+        font-size: 40px;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.Título p{
+    font-family: 'Josefin Slab', serif;
+    align-self: center;
+    text-align: center; 
+    font-size: 25px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+@media (max-width: 800px) {
+    .Título p{
+        font-size: 25px;
+        position: relative;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.Banner{
+    width: 800px;
+    height: 510px;
+    display: inline-block;
+    margin-left: 75px;
+    background-image: url(JPG/fondoloquesea5.jpg); 
+}
+
+
+.Banner .blanco{
+    margin-top: 30px;
+    padding: 0;
+    object-fit: cover;
+    width: 690px;
+    height: 450px;
+    display: flex;
+    margin-left: 55px;
+    background-color: white;
+    display: inline-block;
+}
+
+.blanco{
+    text-align: center;
+    align-self: center;
+}
+
+.blanco h1{
+    margin-top: 11px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 38px;
+}
+
+.blanco p{
+    margin-top: 15px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 21px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.Banner img{
+    margin-top: -480px;
+    margin-left: 850px;
+    object-fit: cover;
+    margin-right: 20px;
+    max-width: 340px;
+    max-height:500px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+  }
+
+  .hy{
+    border-top: 2px solid rgb(22, 22, 22);
+    width: 86%;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(19, 19, 19);
+}
+
+.h{
+    border-top: 2px solid rgb(22, 22, 22);
+    width: 80%;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(19, 19, 19);
+}
+
+.Luego{
+    display: flex;
+}
+
+.Luego h1{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+    font-family: 'Arima Madurai';
+    font-size: 40px;
+}
+
+.contact-form{ 
+    max-width: 850px;
+    margin: 0 auto;
+    background: rgb(231, 214, 170);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input{
+    max-width: 650px;
+    display: flex;
+    align-self: center;
+    margin: 10px 0;
+    background: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.contact-form ::placeholder{
+    color: rgb(155, 153, 153);
+}
+
+button{
+    max-width: 650px;
+    background: rgb(55, 116, 97);
+    width: 100%;
+    border: 0;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button{
+    margin-top: 10px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+footer{
+    font-family: 'Josefin Slab', serif;
+    background: rgb(231, 214, 170);
+    color: rgb(44, 44, 44);
+    font-size: 17px;
+    height: 160px;
+}
+
+.derechos{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(172, 142, 87);
+    text-align: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -9px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+    .derechos{
+        margin-top: 2px;
+    }
+}
+
+div .Contactooficial{
+    display: inline-block;
+}
+
+footer .Contacto{
+    font-weight: bold;
+    margin-left: 160px;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+    footer .Contacto{
+        padding-top: 22px;
+        margin-left: 70px;
+    }
+}
+
+.contacto1{
+    margin-left: 160px;
+    display: flex;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+    .contacto1{
+        margin-left: 70px;
+    }
+}
+
+.contacto2{
+    margin-left: 160px;
+    display: flex;
+    font-size: 16px;
+}
+
+@media (max-width: 800px) {
+    .contacto2{
+        margin-left: 70px;
+    }
+}
+
+.footer-widget{
+    margin-top: -110px;
+    font-weight: bold;
+    margin-left: 1000px;
+    display: flex;
+    padding-top: 25px;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+
+.footer1{
+    color: rgb(44, 44, 44);
+    margin-left: 970px;
+    font-size: 16px;
+}
+
+.footer2{
+    color: rgb(44, 44, 44);
+    margin-left: 970px;
+    font-size: 16px;
+    list-style-type: circle;
+}
+
+.footer3{
+    color: rgb(44, 44, 44);
+    margin-left: 970px;
+    font-size: 16px;
+}
+
+ul li a{
+    color: rgb(44, 44, 44);
+    border:none;
+    outline:none;
+}

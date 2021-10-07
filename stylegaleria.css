@@ -1,0 +1,246 @@
+body{
+    margin: 0%;
+    background-color: white;
+    font-family: Georgia;
+    padding: 0%;
+}
+
+header{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(231, 214, 170);
+    padding: 27px;
+    height: 100px;
+}
+
+.Logo{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.menu{
+    text-decoration: none;
+
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-family: 'Tajawal', sans-serif;
+    width: 55%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.burger{
+    display: none;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 27px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width:2000px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu{
+        position:absolute;
+        right: 0px;
+        height: 500px;
+        top: 100px;
+        background-color: rgb(231, 214, 170);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 22%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .menu a{
+        opacity: 1;
+    }
+    .burger{
+        display: block;
+    } 
+}
+
+@media screen and (max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .menu{
+        position: absolute;
+        height: 500px;
+        width: 50%;
+        top: 100px;
+        background-color: rgb(231, 214, 170);
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }  
+}
+
+.nav-active{
+    transform: translate(0%);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+#instafe {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#instafe div a img{
+    object-fit: cover;
+    display: flex;
+    margin-top: 20px;
+    height: 360px;
+    width: 250px;
+}
+
+#instafed {
+    margin-top: -1520px;
+}
+
+#instafed div a img{
+    object-fit: cover;
+    display: flex;
+    margin-left: 280px;
+    height: 360px;
+    margin-top: 20px;
+    width: 250px;
+}
+
+#insta {
+    margin-top: -1520px;
+}
+
+#insta div a img{
+    top: -2445px;
+    object-fit: cover;
+    display: flex;
+    margin-left: 560px;
+    height: 360px;
+    margin-top: 20px;
+    width: 250px;
+}
+
+footer{
+    font-family: 'Josefin Slab', serif;
+    background: rgb(231, 214, 170);
+    color: rgb(44, 44, 44);
+    font-size: 17px;
+    height: 170px;
+    margin-left: -280px;
+    margin-right: -370px;
+}
+
+.derechos{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(172, 142, 87);
+    text-align: center;
+    align-self: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+div .Contactooficial{
+    display: inline-block;
+}
+
+footer .Contacto{
+    font-weight: bold;
+    margin-left: 150px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.contacto1{
+    margin-left: 150px;
+    display: flex;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.contacto2{
+    margin-left: 150px;
+    display: flex;
+    font-size: 15px;
+}
+
+.footer-widget{
+    margin-top: -115px;
+    display: inline-block;
+    padding-bottom: 12px;
+    font-weight: bold;
+    margin-left: 1000px;
+    display: flex;
+    padding-top: 30px;
+}
+
+.footer1{
+    color: rgb(44, 44, 44);
+    margin-left: 1000px;
+    font-size: 15px;
+}
+
+.footer2{
+    color: rgb(44, 44, 44);
+    margin-left: 1000px;
+    font-size: 15px;
+}
+
+.footer3{
+    color: rgb(44, 44, 44);
+    margin-left: 1000px;
+    font-size: 15px;
+}
+
+div ul a{
+    color: rgb(44, 44, 44);
+    border:none;
+    outline:none;
+    list-style-type: circle;
+}
+

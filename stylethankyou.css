@@ -1,0 +1,88 @@
+body{
+    width: auto;
+}
+
+.Uno{
+    background-color: rgb(231, 214, 170);
+    color: white;
+    font-size: 70px;
+    height: 90px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Uno h1{
+    padding-top: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.Thank-you{
+    height: 480px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url(JPG/bloomsbury-dot-prbd01.jpg); 
+    background-blend-mode: soft-light;
+    background-size: 100%;
+    padding-top: 77px;
+    margin: 0%;
+    list-style: none;
+}
+
+@media (max-width:785px) {
+    .Thank-you {
+      padding-top: 40px;
+      width: 100%; 
+      height: 460px;
+    }
+  }
+
+.Thank-you h1{
+    color: rgb(55, 116, 97);
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+}
+
+@media (max-width:1000px) {
+    .Thank-you h1 {
+        font-size: 60px;
+    }
+  }
+
+.Thank-you p{
+    font-size: 35px;
+    font-family: 'Josefin Slab', cursive;
+    color: rgb(78, 78, 78);
+}
+
+@media (max-width:700px) {
+    .Thank-you p {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+  }
+
+li a{
+    background-color: gray;
+    height: 50px;
+    width: 160px;
+    padding-top: 30px;
+}
+
+.Dos{
+    background-color: rgb(231, 214, 170);
+    color: white;
+    font-size: 70px;
+    height: 200px;
+    margin: 0%;
+    margin-top: 400px;
+}
+
+.Dos h1{
+    padding-top: 30px;
+    text-align: center;
+    align-self: center;
+}

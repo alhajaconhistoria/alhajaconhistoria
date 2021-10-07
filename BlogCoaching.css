@@ -1,0 +1,134 @@
+body{
+    width: auto;
+}
+
+.BannerUno{
+    background-image: url(JPG/fondoloquesea5.jpg);
+    height: 25px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.BlogCoaching{
+    list-style: none;
+    height: 930px;
+    text-align: center;
+}
+
+img{
+    object-fit: cover;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    float: right;
+    width: auto;
+    height: 500px;
+  }
+
+.BlogCoaching h1{
+    font-family: 'Cormorant Garamond', serif;
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.BlogCoaching p{
+    text-align: justify;
+    align-self: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 22px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.BlogCoaching li a{
+    align-self: center;
+    text-align: center;
+    width: 160px;
+    background-color: rgb(221, 202, 135);
+    border-color: white;
+}
+
+footer{
+    font-family: 'Josefin Slab', serif;
+    background: rgb(231, 214, 170);
+    color: rgb(44, 44, 44);
+    font-size: 17px;
+    height: 160px;
+}
+
+.derechos{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(172, 142, 87);
+    text-align: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -4px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+div .Contactooficial{
+    display: inline-block;
+}
+
+footer .Contacto{
+    font-weight: bold;
+    margin-left: 160px;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 5px;
+}
+
+.contacto1{
+    margin-left: 160px;
+    display: flex;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.contacto2{
+    margin-left: 160px;
+    display: flex;
+    font-size: 16px;
+}
+
+.footer-widget{
+    margin-top: -110px;
+    font-weight: bold;
+    margin-left: 1000px;
+    display: flex;
+    padding-top: 25px;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+
+.footer1{
+    color: rgb(44, 44, 44);
+    margin-left: 970px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.footer2{
+    color: rgb(44, 44, 44);
+    margin-left: 970px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.footer3{
+    color: rgb(44, 44, 44);
+    margin-left: 970px;
+    font-size: 16px;
+    list-style: none;
+}
+
+ul li a{
+    color: rgb(44, 44, 44);
+    border:none;
+    outline:none;
+}
