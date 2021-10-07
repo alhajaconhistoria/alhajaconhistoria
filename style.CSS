@@ -28,7 +28,7 @@ header{
 
 .menu{
     text-decoration: none;
-
+    display:flex;
     justify-content: space-around;
     list-style: none;
     color: white;
@@ -91,6 +91,8 @@ header{
         position: absolute;
         height: 500px;
         width: 60%;
+        display: flex;
+        flex-direction: column;
         top: 100px;
         background-color: rgb(231, 214, 170);
         transform: translateX(100%);
