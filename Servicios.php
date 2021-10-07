@@ -31,7 +31,7 @@
 
   <section class="header">
     <img class="hoja" src="hojaalhaja.png" alt="jpg" style="float:left; position: relative;">
-    <img class="persona" src="alhajabanner.jpg" alt="jpg" style="float:left; position: relative;">
+    <img class="persona" src="alhajabanner.png" alt="jpg" style="float:left; position: relative;">
   </section><br>
   <br>
   <br>
@@ -91,7 +91,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="JPG/servicioarmario.png" class="card-img-top" alt="jpg">
+        <img src="servicioarmario.png" class="card-img-top" alt="jpg">
         <div class="card-body">
           <h5 class="card-title">Combinaciones Exitosas</h5>
           <p class="card-text">Servicio presencial en el que revisamos tu clóset. Juntas descartamos las prendas que no son óptimas para tí y armaremos combinaciones sacándole el máximo provecho a las que ya tienes. El objetivo es que se te sea más fácil vestirte diariamente de acuerdo a tu estilo.</p>
