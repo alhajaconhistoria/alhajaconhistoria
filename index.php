@@ -60,7 +60,7 @@
     <section class="Luego">
     <h1>¿Quieres programar una cita?</h1>
     </section><br>
-    <form class="contact-form" action="contactform.php" method="POST">
+    <form class="contactform" action="contactform.php" href = "contactform.php" method="POST">
       <input type="text" name="nombre" placeholder="Mi nombre">
       <input type="text" name="apellido" placeholder="Mi apellido">
       <input type="text" name="correo" placeholder="Mi correo electrónico es...">
